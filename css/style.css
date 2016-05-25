@@ -97,7 +97,6 @@ hr{
 	margin: auto;
 	margin-bottom: 19px;
 	background-color: black;
-	color: white;
 	font-size: 14px;
 	padding-left: 18px;
 	border: none;
@@ -110,12 +109,13 @@ hr{
 	display: inline-block;
 }
 label {
-	color: white;
+	color: #dbdbdb;
 }
 .enter-form input:focus {
 	background-color: #1b5288;
 	border-bottom: 1px solid #689bcc;
 	box-shadow: 0 0 10px 2px #689bcc;
+	color: white;
 }
 .enter-form input[type='submit'] {
 	width: 150px;
@@ -127,7 +127,7 @@ label {
 }
 .enter-form p {
 	font-size: 12px;
-	color: white;
+	color: #dbdbdb;
 	text-align: center;
 	line-height: 20px;
 }
