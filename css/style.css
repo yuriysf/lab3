@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700); /* можно ли прикреплять шрифт отдельным файлом в папке fonts? */
+
+/* общие свойства */
 *{
 	box-sizing: border-box;
 }
@@ -35,6 +37,7 @@ a {
 }
 .menu li:nth-child(2) {
 	padding: 9.5px 12px;
+	border-left: 1px solid #5cafe7;
 }
 .menu li:nth-child(2) a {
 	position: relative;
@@ -82,33 +85,43 @@ li:hover a {
 	width: 275px;
 	height: 35px;
 	margin: auto;
-	margin-bottom: 36px;
+	margin-bottom: 30px;
 }
-hr{
-	background-color: black;
+.line {
 	width: 275px;
 	margin: auto;
-	margin-bottom: 35px;
+	margin-bottom: 30px;   /* как лучше задать отступы: margin-bottom, margin-top или у каждого блока margin-bottom? */
 }
-.enter-form input {
+.left-line {
+	float: left;           /* не получается поменять цвет линии */
+	width: 123px;
+}
+.right-line {
+	float: right;
+	width: 123px;
+}
+.text-line {
+	float: left;
+	margin-left: 6px;
+	color: #dbdbdb;
+}	
+.input-form {
 	display: block;
 	width: 275px;
 	height: 35px;
 	margin: auto;
-	margin-bottom: 19px;
+	margin-bottom: 24px;
 	background-color: black;
 	font-size: 14px;
+	color: white;
 	padding-left: 18px;
 	border: none;
 	border-bottom: 1px solid #474747;
 }
 .enter-form input[type='checkbox'] {
-	width: 1em;
-	height: 1em;
 	margin: 3px 7px 25px 142.5px;
-	display: inline-block;
 }
-label {
+.enter-form label {
 	color: #dbdbdb;
 }
 .enter-form input:focus {
@@ -118,12 +131,13 @@ label {
 	color: white;
 }
 .enter-form input[type='submit'] {
+	display: block;
 	width: 150px;
 	height: 35px;
 	background-color: #2f7bc5;
-	padding: 0;
 	border-radius: 5px;
-	margin-bottom: 9px;
+	margin: auto;
+	margin-bottom: 20px;
 	color: #dbdbdb;
 }
 .enter-form p {
