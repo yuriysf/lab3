@@ -16,6 +16,7 @@ body {
 	background-image: url('../img/background.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	background-height: 100%;
 }
 a {
 	text-decoration: none;
@@ -59,9 +60,12 @@ li:hover a {
 
 /*content*/
 .content {
+	position: absolute;
+	top: 120px;
+	right: 0;
+	left: 0;
 	width: 560px;
 	margin: auto;
-	margin-top: 215px;
 	margin-bottom: 200px;
 }
 .content h1 {
@@ -91,6 +95,10 @@ li:hover a {
 	width: 275px;
 	margin: auto;
 	margin-bottom: 30px;   /* как лучше задать отступы: margin-bottom, margin-top или у каждого блока margin-bottom? */
+}
+hr {
+	border-top: 1px solid #dbdbdb;
+	border-bottom: 1px solid black;
 }
 .left-line {
 	float: left;           /* не получается поменять цвет линии */
