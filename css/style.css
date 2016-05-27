@@ -16,7 +16,6 @@ body {
 	background-image: url('../img/background.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	background-height: 100%;
 }
 a {
 	text-decoration: none;
@@ -75,7 +74,6 @@ li:hover a {
 .enter-form {
 	background-color: rgba(0, 0, 0, 0.6);
 	padding-top: 36px;
-	padding-bottom: 27px;
 }
 .enter-form a {
 	display: block;
@@ -111,7 +109,7 @@ hr {
 	width: 275px;
 	height: 35px;
 	margin: auto;
-	margin-bottom: 24px;
+	margin-bottom: 17px;
 	background-color: black;
 	color: white;
 	font-size: 14px;
@@ -139,7 +137,7 @@ hr {
 	background-color: #2f7bc5;
 	border-radius: 5px;
 	margin: auto;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	color: #dbdbdb;
 }
 .enter-form p {
@@ -147,4 +145,5 @@ hr {
 	color: #dbdbdb;
 	text-align: center;
 	line-height: 20px;
+	padding-bottom: 17px;
 }
